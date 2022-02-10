@@ -1,0 +1,228 @@
+body{   
+    max-width: 1900px;    
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+/*HEADER*/
+header{
+    margin-top: 50px;
+}
+
+ul{
+    display: flex;
+}
+
+li{    
+    list-style: none;
+    padding-left: 2rem;
+    font-size: 1.5em;
+}
+
+#X-logo{
+    color: white;
+    background-color: rgb(255, 123, 0);
+    border: 15px solid rgb(255, 123, 0);
+    border-radius: 50%;
+    padding: 3px 10px;  
+}
+
+#bouton-request{
+    margin-left: 0%;    
+    width: 200px;
+    height: 50px; 
+    color: rgb(255, 123, 0);
+    border: 1px solid rgb(255, 123, 0);
+    background-color: white;    
+    border-radius: 8px;
+}
+
+.middle{
+    margin-left: auto;
+    margin-right: auto;    
+    display: flex;
+    padding-left: 0.1em;
+    text-align: center;
+}
+
+
+/***************************/
+.première-part{
+    margin-top: 90px; 
+    margin-bottom: 100px;
+    margin-left: 5% ;  
+    display: flex; 
+    font-size: 1.5em;
+    color: gray;
+}
+
+.première-part h1{
+font-size: 4em;
+color: black;
+}
+
+#bouton-selection{
+    text-align: center;    
+    width: 250px;
+    height: 55px;    
+    color: white;
+    background-color: rgb(255, 123, 0); 
+    border: 4px solid rgb(255, 123, 0);   
+    border-radius: 8px;
+    font-size: 1.2em;
+}
+
+.lettre-bouton{
+    margin-right: 10%;
+}
+
+/******************************/
+.first{
+    margin-top: 70px;
+    background-color: rgb(255, 123, 0);
+}
+
+.first img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+}
+
+/*LES SPONSORS*/
+.all-sponsors{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.sponsor{
+    filter: grayscale(1);
+    opacity: 0.33;
+    padding-top: 40px;
+    width: 20%;
+}
+.sponsor img{
+    width: 75%;
+    height: auto;
+}
+
+/*ALWAYS ONLINE*/
+.always-onLine{
+    color: grey;
+    display: flex;
+    font-size: 1.5em;
+    margin-bottom: 80px;
+}
+.always-onLine h2{
+    font-size: 4em;
+    color: black;
+}
+.imgPc{
+    margin-left: 15%;
+}
+.always-onLine a{
+    color: rgb(255, 123, 0);
+    font-size: 1.5em;
+}
+
+/************BIG TITLE**************/
+.big-title h2{
+    text-align: center;
+    font-size: 5rem;
+    padding-bottom: 20px;
+    
+}
+
+/*********CHOUSE YOUR FLEXIBLE PLAN*********/
+#complication{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+#complication .choix{
+    border: 1px solid black;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 80px 20px;
+}
+#complication ul{
+    display: inline-block;
+}
+#complication button{
+    width: 200px;
+    height: 50px; 
+    color: rgb(255, 123, 0);
+    border: 1px solid rgb(255, 123, 0);
+    background-color: white;    
+    border-radius: 8px;
+}
+#complication button:hover{
+    color: white;
+    transition: 1s;
+    background-color: rgb(255, 123, 0);
+}
+#complication .choix:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.589);
+    transition: 1.1;
+}
+/*BIG ORANGE WITH TWO PICTURE*/
+.gros-titre{
+    padding-top: 40px;
+    text-align: center;
+    background-color: rgb(255, 123, 0);
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 70px;
+}
+.gros-titre h4{
+    text-align: center;
+    font-size: 4rem;
+    background-color: rgb(255, 123, 0);
+}
+.gros-titre button{
+    color: rgb(255, 123, 0);
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 3px 10px;  
+}
+
+/***  LISTE WITH FORM  ***/
+.little-forme{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.liste  ul{
+    display: inline-block;
+    margin-right: 2%;
+}
+
+#LOGO-X{
+    color: white;
+    font-size: 2em;
+    background-color: rgb(255, 123, 0);
+    border: 15px solid rgb(255, 123, 0);
+    border-radius: 50%;
+    padding: 3px 10px;
+}
+
+#subscribe{
+    
+}
+
+/**************FOOTER******************/
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+.fin img{
+    width: 30px;
+    height: 30px;
+}
+
+
